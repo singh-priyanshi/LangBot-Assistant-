@@ -21,9 +21,8 @@ SmartTalk is an advanced conversational application built using the LangChain fr
    os.environ['OPENAI_API_TOKEN'] = 'YOUR_OPENAI_API_KEY'
 
 3. Install the required dependencies: SmartTalk relies on the openai library. You can install it using pip:
-----------------------
-#### pip install openai
-----------------------
+   ```python
+   pip install openai
 
 4. Set up additional environment variables: Depending on the specific functionality you want to use, SmartTalk requires certain environment variables to be set. These include:
 
@@ -32,9 +31,9 @@ SmartTalk is an advanced conversational application built using the LangChain fr
 * __OPENWEATHERMAP_API_KEY:__ API key for OpenWeatherMap integration.
 
 5. Clone the SmartTalk repository: Clone the SmartTalk repository from GitHub to your local machine.
----------------------
-#### git clone https://github.com/your-username/smarttalk.git
----------------------
+   ```python
+   git clone https://github.com/your-username/smarttalk.git
+
 
 6. Start using SmartTalk: You can now import the necessary modules from the SmartTalk library and start using its features in your Python code.
 
